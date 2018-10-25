@@ -1,0 +1,2 @@
+class ModifPm < ApplicationRecord
+end

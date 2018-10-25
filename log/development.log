@@ -1397,3 +1397,1219 @@ Migrating to CreatePrivateMessages (20181025194941)
   ↳ db/seeds.rb:39
   [1m[35m (104.1ms)[0m  [1m[36mcommit transaction[0m
   ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Shelton"], ["last_name", "Nicol"], ["description", "Jocasta"], ["mail", "thomas@thiel.info"], ["age", 21], ["created_at", "2018-10-25 20:47:19.386263"], ["updated_at", "2018-10-25 20:47:19.386263"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (77.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Abel"], ["last_name", "Heather"], ["description", "Jason"], ["mail", "divinaosinski@lockman.co"], ["age", 31], ["created_at", "2018-10-25 20:47:19.467853"], ["updated_at", "2018-10-25 20:47:19.467853"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (129.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Alissa"], ["last_name", "Nickole"], ["description", "Hercules"], ["mail", "elijah@greenfelder.co"], ["age", 20], ["created_at", "2018-10-25 20:47:19.601270"], ["updated_at", "2018-10-25 20:47:19.601270"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (128.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Annabel"], ["last_name", "Corine"], ["description", "Meleager"], ["mail", "homer@millscorkery.name"], ["age", 35], ["created_at", "2018-10-25 20:47:19.734116"], ["updated_at", "2018-10-25 20:47:19.734116"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (129.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Timothy"], ["last_name", "Ok"], ["description", "Hecuba"], ["mail", "mikaharber@rice.info"], ["age", 35], ["created_at", "2018-10-25 20:47:19.867825"], ["updated_at", "2018-10-25 20:47:19.867825"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (128.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Shawn"], ["last_name", "Dante"], ["description", "Iphigenia"], ["mail", "darrelnienow@glover.net"], ["age", 25], ["created_at", "2018-10-25 20:47:20.005405"], ["updated_at", "2018-10-25 20:47:20.005405"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (109.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Allena"], ["last_name", "Odette"], ["description", "Electra"], ["mail", "armando@hegmannwest.com"], ["age", 22], ["created_at", "2018-10-25 20:47:20.122542"], ["updated_at", "2018-10-25 20:47:20.122542"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (129.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Doug"], ["last_name", "Susanne"], ["description", "Jocasta"], ["mail", "maximo@denesik.io"], ["age", 21], ["created_at", "2018-10-25 20:47:20.255567"], ["updated_at", "2018-10-25 20:47:20.255567"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (129.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Mickey"], ["last_name", "Elna"], ["description", "Daedalus"], ["mail", "tilliedaugherty@ondrickabarton.org"], ["age", 25], ["created_at", "2018-10-25 20:47:20.389570"], ["updated_at", "2018-10-25 20:47:20.389570"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (109.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Lyle"], ["last_name", "Bobby"], ["description", "Ismene"], ["mail", "vincenzohammes@bergnaum.name"], ["age", 26], ["created_at", "2018-10-25 20:47:20.510234"], ["updated_at", "2018-10-25 20:47:20.510234"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (75.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Raticate"], ["zip_code", 63050], ["created_at", "2018-10-25 20:47:20.608893"], ["updated_at", "2018-10-25 20:47:20.608893"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (98.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ditto"], ["zip_code", 78913], ["created_at", "2018-10-25 20:47:20.710570"], ["updated_at", "2018-10-25 20:47:20.710570"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (117.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Golbat"], ["zip_code", 52449], ["created_at", "2018-10-25 20:47:20.832578"], ["updated_at", "2018-10-25 20:47:20.832578"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (118.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.6ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lapras"], ["zip_code", 78978], ["created_at", "2018-10-25 20:47:20.955801"], ["updated_at", "2018-10-25 20:47:20.955801"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (92.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Zubat"], ["zip_code", 69641], ["created_at", "2018-10-25 20:47:21.055094"], ["updated_at", "2018-10-25 20:47:21.055094"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (94.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (1.0ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dewgong"], ["zip_code", 81443], ["created_at", "2018-10-25 20:47:21.154358"], ["updated_at", "2018-10-25 20:47:21.154358"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (117.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pikachu"], ["zip_code", 89894], ["created_at", "2018-10-25 20:47:21.275858"], ["updated_at", "2018-10-25 20:47:21.275858"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (96.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Poliwag"], ["zip_code", 81610], ["created_at", "2018-10-25 20:47:21.378506"], ["updated_at", "2018-10-25 20:47:21.378506"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (115.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Goldeen"], ["zip_code", 55555], ["created_at", "2018-10-25 20:47:21.498794"], ["updated_at", "2018-10-25 20:47:21.498794"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (117.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Wartortle"], ["zip_code", 96167], ["created_at", "2018-10-25 20:47:21.620953"], ["updated_at", "2018-10-25 20:47:21.620953"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (117.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.8ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Lesch-Wehner"], ["content", "I don't know how it happened, man, but somehow I got on that woman's cycle of menstruation…and I got that menstruation inside of me."], ["date", "2018-10-16 00:00:00"], ["created_at", "2018-10-25 20:47:21.764606"], ["updated_at", "2018-10-25 20:47:21.764606"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (115.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Paucek Group"], ["content", "It hurts. I feel like I've laid a million eggs and they're all hatching. I feel like I want to murder someone and I also want soft pretzels."], ["date", "2018-10-13 00:00:00"], ["created_at", "2018-10-25 20:47:21.886268"], ["updated_at", "2018-10-25 20:47:21.886268"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (118.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bechtelar-Ullrich"], ["content", "If you had a jacket on with a bunch of yellow feathers, I'd be done."], ["date", "2018-10-16 00:00:00"], ["created_at", "2018-10-25 20:47:22.008981"], ["updated_at", "2018-10-25 20:47:22.008981"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (117.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Ritchie-Emard"], ["content", "I'm gonna end up alone. I’m gonna be a single old lady, flashing people on the subway."], ["date", "2018-10-17 00:00:00"], ["created_at", "2018-10-25 20:47:22.131452"], ["updated_at", "2018-10-25 20:47:22.131452"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (118.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.9ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bauch, Hirthe and Bruen"], ["content", "It hurts. I feel like I've laid a million eggs and they're all hatching. I feel like I want to murder someone and I also want soft pretzels."], ["date", "2018-10-14 00:00:00"], ["created_at", "2018-10-25 20:47:22.254084"], ["updated_at", "2018-10-25 20:47:22.254084"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (116.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.6ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pfannerstill-Walter"], ["content", "How's the new apartment? Does it smell like new paint and compromise?"], ["date", "2018-10-18 00:00:00"], ["created_at", "2018-10-25 20:47:22.376235"], ["updated_at", "2018-10-25 20:47:22.376235"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (93.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Greenfelder, Hoeger and Kling"], ["content", "I'm gonna end up alone. I’m gonna be a single old lady, flashing people on the subway."], ["date", "2018-10-21 00:00:00"], ["created_at", "2018-10-25 20:47:22.475011"], ["updated_at", "2018-10-25 20:47:22.475011"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (94.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Parker-Russel"], ["content", "Are you cooking a frittata in a sauce pan? What is this – prison?"], ["date", "2018-10-24 00:00:00"], ["created_at", "2018-10-25 20:47:22.576241"], ["updated_at", "2018-10-25 20:47:22.576241"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (93.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Johnson, Leannon and Carter"], ["content", "I had figure skating lessons until I was 13, and then my mom sobered up and realized I was a boy."], ["date", "2018-10-12 00:00:00"], ["created_at", "2018-10-25 20:47:22.675922"], ["updated_at", "2018-10-25 20:47:22.675922"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (92.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Cremin, Rempel and Grant"], ["content", "This place is fancy and I don't know which fork to kill myself with."], ["date", "2018-10-18 00:00:00"], ["created_at", "2018-10-25 20:47:22.775849"], ["updated_at", "2018-10-25 20:47:22.775849"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (92.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.5ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Guild of Calamitous Intent"], ["created_at", "2018-10-25 20:47:22.884567"], ["updated_at", "2018-10-25 20:47:22.884567"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (95.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Revenge Society"], ["created_at", "2018-10-25 20:47:22.985334"], ["updated_at", "2018-10-25 20:47:22.985334"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (106.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Brimstone Assemnbly"], ["created_at", "2018-10-25 20:47:23.096042"], ["updated_at", "2018-10-25 20:47:23.096042"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (83.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Crusaders Action League"], ["created_at", "2018-10-25 20:47:23.190779"], ["updated_at", "2018-10-25 20:47:23.190779"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (100.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.5ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Team Venture"], ["created_at", "2018-10-25 20:47:23.297096"], ["updated_at", "2018-10-25 20:47:23.297096"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (92.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Ünderland Troops"], ["created_at", "2018-10-25 20:47:23.395481"], ["updated_at", "2018-10-25 20:47:23.395481"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (106.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Team Venture"], ["created_at", "2018-10-25 20:47:23.505832"], ["updated_at", "2018-10-25 20:47:23.505832"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (84.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Conjectural Technologies"], ["created_at", "2018-10-25 20:47:23.595850"], ["updated_at", "2018-10-25 20:47:23.595850"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (82.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Guild of Calamitous Intent"], ["created_at", "2018-10-25 20:47:23.683432"], ["updated_at", "2018-10-25 20:47:23.683432"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (84.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Impossible Industries"], ["created_at", "2018-10-25 20:47:23.772035"], ["updated_at", "2018-10-25 20:47:23.772035"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (86.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifUsers (20181025205245)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20181025205245_create_modif_users.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "private_messages" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar, "date" datetime, "recipient_id" integer, "sender_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20181025205245_create_modif_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifUsers (20181025205245)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20181025205245_create_modif_users.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "private_messages" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar, "date" datetime, "recipient_id" integer, "sender_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20181025205245_create_modif_users.rb:3
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35m             ALTER TABLE distributors
+               ADD columns
+               t.references :recipient, index: true
+               t.references :sender, index: true
+
+[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35m             ALTER TABLE private_messages
+               ADD columns
+               t.references :recipient, index: true
+               t.references :sender, index: true
+
+[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35m             ALTER TABLE private_messages
+               ADD columns
+               t.references :recipient, index: true
+               t.references :sender, index: true
+
+[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35m             ALTER TABLE private_messages
+               ADD columns
+               references :recipient, index: true
+               references :sender, index: true
+
+[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35m             ALTER TABLE private_messages
+               ADD columns
+               references :recipient, index: true
+               references :sender, index: true
+
+[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "private_messages" ADD "content" varchar[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:4
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "private_messages" ADD "content" varchar[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:4
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "private_messages" ADD "content" varchar[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:4
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateModifPms (20181025205406)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "private_messages" ADD "recipient_id" integer[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_private_messages_on_recipient_id" ON "private_messages" ("recipient_id")[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "private_messages" ADD "sender_id" integer[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_private_messages_on_sender_id" ON "private_messages" ("sender_id")[0m
+  ↳ db/migrate/20181025205406_create_modif_pms.rb:5
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181025205406"]]
+  ↳ bin/rails:9
+  [1m[35m (123.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Lieselotte"], ["last_name", "Coretta"], ["description", "Pandion"], ["mail", "sunnymitchell@schillerlynch.info"], ["age", 24], ["created_at", "2018-10-25 21:04:19.625827"], ["updated_at", "2018-10-25 21:04:19.625827"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (121.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Juan"], ["last_name", "Collen"], ["description", "Eunostus"], ["mail", "caryn@wilkinson.name"], ["age", 27], ["created_at", "2018-10-25 21:04:19.751019"], ["updated_at", "2018-10-25 21:04:19.751019"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (119.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Josef"], ["last_name", "Katelynn"], ["description", "Andromeda"], ["mail", "sharmaine@willoconner.com"], ["age", 40], ["created_at", "2018-10-25 21:04:19.875878"], ["updated_at", "2018-10-25 21:04:19.875878"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (113.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Antony"], ["last_name", "Eveline"], ["description", "Ismene"], ["mail", "starlamcdermott@rogahn.org"], ["age", 27], ["created_at", "2018-10-25 21:04:19.995479"], ["updated_at", "2018-10-25 21:04:19.995479"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (117.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Brain"], ["last_name", "Jae"], ["description", "Pandora"], ["mail", "deloreskeler@torphy.net"], ["age", 31], ["created_at", "2018-10-25 21:04:20.117676"], ["updated_at", "2018-10-25 21:04:20.117676"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (117.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Maryetta"], ["last_name", "Lauri"], ["description", "Odysseus"], ["mail", "irvin@cremin.name"], ["age", 30], ["created_at", "2018-10-25 21:04:20.239073"], ["updated_at", "2018-10-25 21:04:20.239073"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (129.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Mervin"], ["last_name", "Nanette"], ["description", "Eunostus"], ["mail", "nelidaborer@whiterogahn.net"], ["age", 27], ["created_at", "2018-10-25 21:04:20.376735"], ["updated_at", "2018-10-25 21:04:20.376735"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (141.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Dedra"], ["last_name", "Rolf"], ["description", "Hector"], ["mail", "cornell@howellcollins.biz"], ["age", 35], ["created_at", "2018-10-25 21:04:20.524005"], ["updated_at", "2018-10-25 21:04:20.524005"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (111.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Josef"], ["last_name", "Hortensia"], ["description", "Hecuba"], ["mail", "kesha@veumpagac.co"], ["age", 24], ["created_at", "2018-10-25 21:04:20.638852"], ["updated_at", "2018-10-25 21:04:20.638852"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (118.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Irena"], ["last_name", "Stanton"], ["description", "Alcestis"], ["mail", "dovie@gibsonjenkins.name"], ["age", 24], ["created_at", "2018-10-25 21:04:20.771585"], ["updated_at", "2018-10-25 21:04:20.771585"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (109.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Arcanine"], ["zip_code", 59286], ["created_at", "2018-10-25 21:04:20.902633"], ["updated_at", "2018-10-25 21:04:20.902633"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (87.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ninetales"], ["zip_code", 87384], ["created_at", "2018-10-25 21:04:20.993790"], ["updated_at", "2018-10-25 21:04:20.993790"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (108.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pikachu"], ["zip_code", 83456], ["created_at", "2018-10-25 21:04:21.105148"], ["updated_at", "2018-10-25 21:04:21.105148"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (106.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gengar"], ["zip_code", 24920], ["created_at", "2018-10-25 21:04:21.216196"], ["updated_at", "2018-10-25 21:04:21.216196"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (107.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Magmar"], ["zip_code", 35654], ["created_at", "2018-10-25 21:04:21.326585"], ["updated_at", "2018-10-25 21:04:21.326585"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (120.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Fearow"], ["zip_code", 87778], ["created_at", "2018-10-25 21:04:21.450770"], ["updated_at", "2018-10-25 21:04:21.450770"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (115.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Psyduck"], ["zip_code", 12208], ["created_at", "2018-10-25 21:04:21.571944"], ["updated_at", "2018-10-25 21:04:21.571944"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (117.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Wartortle"], ["zip_code", 61547], ["created_at", "2018-10-25 21:04:21.694728"], ["updated_at", "2018-10-25 21:04:21.694728"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (115.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Drowzee"], ["zip_code", 70753], ["created_at", "2018-10-25 21:04:21.815222"], ["updated_at", "2018-10-25 21:04:21.815222"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (119.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dewgong"], ["zip_code", 2601], ["created_at", "2018-10-25 21:04:21.938013"], ["updated_at", "2018-10-25 21:04:21.938013"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (119.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Schuster, Turner and Hahn"], ["content", "Old people freak me out. With their hands and their legs. They’re like the people version of pleated pants."], ["date", "2018-10-12 00:00:00"], ["created_at", "2018-10-25 21:04:22.072012"], ["updated_at", "2018-10-25 21:04:22.072012"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (126.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Hodkiewicz Inc"], ["content", "Are you 'White Fanging' me?"], ["date", "2018-10-11 00:00:00"], ["created_at", "2018-10-25 21:04:22.201987"], ["updated_at", "2018-10-25 21:04:22.201987"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (306.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Parker-Pagac"], ["content", "I'm really fighting the urge to buy you a lobster dinner."], ["date", "2018-10-11 00:00:00"], ["created_at", "2018-10-25 21:04:22.515170"], ["updated_at", "2018-10-25 21:04:22.515170"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (105.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Connelly-Reichert"], ["content", "It hurts. I feel like I've laid a million eggs and they're all hatching. I feel like I want to murder someone and I also want soft pretzels."], ["date", "2018-10-18 00:00:00"], ["created_at", "2018-10-25 21:04:22.624632"], ["updated_at", "2018-10-25 21:04:22.624632"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (106.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Larson, Mueller and Hettinger"], ["content", "I was sabotaged by my baby box, which means I will never trust anything that comes out of it."], ["date", "2018-10-13 00:00:00"], ["created_at", "2018-10-25 21:04:22.736049"], ["updated_at", "2018-10-25 21:04:22.736049"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (118.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Shields-Reilly"], ["content", "With your big, beautiful blue eyes and my Blair Underwood-like skin, we'd have the most beautiful baby the world has ever seen."], ["date", "2018-10-13 00:00:00"], ["created_at", "2018-10-25 21:04:22.857884"], ["updated_at", "2018-10-25 21:04:22.857884"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (117.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Russel, Kunze and Crona"], ["content", "If you had a jacket on with a bunch of yellow feathers, I'd be done."], ["date", "2018-10-24 00:00:00"], ["created_at", "2018-10-25 21:04:22.980715"], ["updated_at", "2018-10-25 21:04:22.980715"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (106.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Haley, Dare and Ruecker"], ["content", "With your big, beautiful blue eyes and my Blair Underwood-like skin, we'd have the most beautiful baby the world has ever seen."], ["date", "2018-10-17 00:00:00"], ["created_at", "2018-10-25 21:04:23.092076"], ["updated_at", "2018-10-25 21:04:23.092076"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (136.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Wehner-Kulas"], ["content", "Take these, and take care of them. I can get a tetanus shot, but I can't cure damaged suede."], ["date", "2018-10-14 00:00:00"], ["created_at", "2018-10-25 21:04:23.234248"], ["updated_at", "2018-10-25 21:04:23.234248"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (98.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.6ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Lueilwitz Inc"], ["content", "I don't know how it happened, man, but somehow I got on that woman's cycle of menstruation…and I got that menstruation inside of me."], ["date", "2018-10-14 00:00:00"], ["created_at", "2018-10-25 21:04:23.336775"], ["updated_at", "2018-10-25 21:04:23.336775"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (116.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.6ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Blackhearts Elimination Society"], ["created_at", "2018-10-25 21:04:23.473008"], ["updated_at", "2018-10-25 21:04:23.473008"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (101.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.7ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Order of the Triad"], ["created_at", "2018-10-25 21:04:23.580275"], ["updated_at", "2018-10-25 21:04:23.580275"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (104.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Order of the Triad"], ["created_at", "2018-10-25 21:04:23.690519"], ["updated_at", "2018-10-25 21:04:23.690519"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (98.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "State University"], ["created_at", "2018-10-25 21:04:23.800835"], ["updated_at", "2018-10-25 21:04:23.800835"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (108.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "State University"], ["created_at", "2018-10-25 21:04:23.912569"], ["updated_at", "2018-10-25 21:04:23.912569"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (117.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Conjectural Technologies"], ["created_at", "2018-10-25 21:04:24.034767"], ["updated_at", "2018-10-25 21:04:24.034767"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (105.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Impossible Industries"], ["created_at", "2018-10-25 21:04:24.144692"], ["updated_at", "2018-10-25 21:04:24.144692"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (95.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Brimstone Assemnbly"], ["created_at", "2018-10-25 21:04:24.245169"], ["updated_at", "2018-10-25 21:04:24.245169"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (83.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Brimstone Assemnbly"], ["created_at", "2018-10-25 21:04:24.334389"], ["updated_at", "2018-10-25 21:04:24.334389"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (118.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Office of Secret Intelligence"], ["created_at", "2018-10-25 21:04:24.456489"], ["updated_at", "2018-10-25 21:04:24.456489"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (133.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Aliza"], ["last_name", "Magali"], ["description", "Hercules"], ["mail", "jeroldwelch@flatley.info"], ["age", 28], ["created_at", "2018-10-25 21:04:33.643805"], ["updated_at", "2018-10-25 21:04:33.643805"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (106.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Shery"], ["last_name", "Emerson"], ["description", "Andromache"], ["mail", "warrenstiedemann@schroeder.name"], ["age", 37], ["created_at", "2018-10-25 21:04:33.756020"], ["updated_at", "2018-10-25 21:04:33.756020"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (124.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Candice"], ["last_name", "Eugenia"], ["description", "Amymone"], ["mail", "lloyd@goldnerrogahn.biz"], ["age", 25], ["created_at", "2018-10-25 21:04:33.884299"], ["updated_at", "2018-10-25 21:04:33.884299"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (107.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Chang"], ["last_name", "Stacey"], ["description", "Danaë"], ["mail", "leoniepaucek@marvin.net"], ["age", 26], ["created_at", "2018-10-25 21:04:33.999820"], ["updated_at", "2018-10-25 21:04:33.999820"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (105.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Cecil"], ["last_name", "Vashti"], ["description", "Antigone"], ["mail", "nikkiskiles@pfeffer.net"], ["age", 20], ["created_at", "2018-10-25 21:04:34.110549"], ["updated_at", "2018-10-25 21:04:34.110549"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (112.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Luigi"], ["last_name", "Frida"], ["description", "Medusa"], ["mail", "saulmayer@bashiriankutch.co"], ["age", 21], ["created_at", "2018-10-25 21:04:34.228568"], ["updated_at", "2018-10-25 21:04:34.228568"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (106.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Christia"], ["last_name", "Angie"], ["description", "Orpheus"], ["mail", "bridgettepowlowski@kohler.net"], ["age", 33], ["created_at", "2018-10-25 21:04:34.339387"], ["updated_at", "2018-10-25 21:04:34.339387"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (106.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Porter"], ["last_name", "Noella"], ["description", "Castor"], ["mail", "ernestinemcdermott@gerhold.io"], ["age", 40], ["created_at", "2018-10-25 21:04:34.449969"], ["updated_at", "2018-10-25 21:04:34.449969"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (96.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Shirley"], ["last_name", "Heike"], ["description", "Antilochus"], ["mail", "porfiriohirthe@gleason.com"], ["age", 28], ["created_at", "2018-10-25 21:04:34.550145"], ["updated_at", "2018-10-25 21:04:34.550145"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (107.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Jo"], ["last_name", "Kathi"], ["description", "Jason"], ["mail", "odiskuphal@casper.info"], ["age", 36], ["created_at", "2018-10-25 21:04:34.660773"], ["updated_at", "2018-10-25 21:04:34.660773"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (106.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dewgong"], ["zip_code", 96300], ["created_at", "2018-10-25 21:04:34.801937"], ["updated_at", "2018-10-25 21:04:34.801937"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (111.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Mr. Mime"], ["zip_code", 37501], ["created_at", "2018-10-25 21:04:34.917488"], ["updated_at", "2018-10-25 21:04:34.917488"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (95.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Electrode"], ["zip_code", 28288], ["created_at", "2018-10-25 21:04:35.017669"], ["updated_at", "2018-10-25 21:04:35.017669"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (105.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lapras"], ["zip_code", 24415], ["created_at", "2018-10-25 21:04:35.128321"], ["updated_at", "2018-10-25 21:04:35.128321"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (108.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ditto"], ["zip_code", 57545], ["created_at", "2018-10-25 21:04:35.241282"], ["updated_at", "2018-10-25 21:04:35.241282"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (104.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Nidoran"], ["zip_code", 32178], ["created_at", "2018-10-25 21:04:35.349362"], ["updated_at", "2018-10-25 21:04:35.349362"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (107.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Snorlax"], ["zip_code", 24479], ["created_at", "2018-10-25 21:04:35.462695"], ["updated_at", "2018-10-25 21:04:35.462695"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (103.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Magmar"], ["zip_code", 70492], ["created_at", "2018-10-25 21:04:35.572030"], ["updated_at", "2018-10-25 21:04:35.572030"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (116.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.6ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dragonair"], ["zip_code", 4847], ["created_at", "2018-10-25 21:04:35.693774"], ["updated_at", "2018-10-25 21:04:35.693774"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (105.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Kakuna"], ["zip_code", 25621], ["created_at", "2018-10-25 21:04:35.803668"], ["updated_at", "2018-10-25 21:04:35.803668"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (109.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (1.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Effertz-Bernhard"], ["content", "With your big, beautiful blue eyes and my Blair Underwood-like skin, we'd have the most beautiful baby the world has ever seen."], ["date", "2018-10-24 00:00:00"], ["created_at", "2018-10-25 21:04:35.935617"], ["updated_at", "2018-10-25 21:04:35.935617"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (94.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Stehr, Predovic and Walker"], ["content", "I did laundry. I smell like a baby in a damn meadow."], ["date", "2018-10-12 00:00:00"], ["created_at", "2018-10-25 21:04:36.037771"], ["updated_at", "2018-10-25 21:04:36.037771"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (106.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Gleichner-Skiles"], ["content", "If you need me, I'll be in my room, listening to some mainstream hip-hop."], ["date", "2018-10-15 00:00:00"], ["created_at", "2018-10-25 21:04:36.149241"], ["updated_at", "2018-10-25 21:04:36.149241"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (116.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Trantow, Hilll and Lubowitz"], ["content", "Old people freak me out. With their hands and their legs. They’re like the people version of pleated pants."], ["date", "2018-10-22 00:00:00"], ["created_at", "2018-10-25 21:04:36.270542"], ["updated_at", "2018-10-25 21:04:36.270542"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (105.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Casper, Morissette and Auer"], ["content", "Are you cooking a frittata in a sauce pan? What is this – prison?"], ["date", "2018-10-22 00:00:00"], ["created_at", "2018-10-25 21:04:36.381951"], ["updated_at", "2018-10-25 21:04:36.381951"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (106.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Botsford Group"], ["content", "This place is fancy and I don't know which fork to kill myself with."], ["date", "2018-10-11 00:00:00"], ["created_at", "2018-10-25 21:04:36.492986"], ["updated_at", "2018-10-25 21:04:36.492986"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (105.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Lueilwitz Inc"], ["content", "Please take that off. You look like a homeless pencil."], ["date", "2018-10-14 00:00:00"], ["created_at", "2018-10-25 21:04:36.603052"], ["updated_at", "2018-10-25 21:04:36.603052"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (107.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Schimmel LLC"], ["content", "I had figure skating lessons until I was 13, and then my mom sobered up and realized I was a boy."], ["date", "2018-10-22 00:00:00"], ["created_at", "2018-10-25 21:04:36.713759"], ["updated_at", "2018-10-25 21:04:36.713759"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (97.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.9ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bailey Group"], ["content", "With your big, beautiful blue eyes and my Blair Underwood-like skin, we'd have the most beautiful baby the world has ever seen."], ["date", "2018-10-15 00:00:00"], ["created_at", "2018-10-25 21:04:36.815442"], ["updated_at", "2018-10-25 21:04:36.815442"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (124.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Smitham, Wiza and Osinski"], ["content", "I did laundry. I smell like a baby in a damn meadow."], ["date", "2018-10-24 00:00:00"], ["created_at", "2018-10-25 21:04:36.947093"], ["updated_at", "2018-10-25 21:04:36.947093"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (106.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "S.P.H.I.N.X"], ["created_at", "2018-10-25 21:04:37.066894"], ["updated_at", "2018-10-25 21:04:37.066894"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (108.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "State University"], ["created_at", "2018-10-25 21:04:37.180182"], ["updated_at", "2018-10-25 21:04:37.180182"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (108.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Fluttering Horde"], ["created_at", "2018-10-25 21:04:37.291795"], ["updated_at", "2018-10-25 21:04:37.291795"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (106.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Soul Mates"], ["created_at", "2018-10-25 21:04:37.401705"], ["updated_at", "2018-10-25 21:04:37.401705"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (107.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.5ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Order of the Triad"], ["created_at", "2018-10-25 21:04:37.512777"], ["updated_at", "2018-10-25 21:04:37.512777"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (139.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Venture Industries"], ["created_at", "2018-10-25 21:04:37.657924"], ["updated_at", "2018-10-25 21:04:37.657924"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (119.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Office of Secret Intelligence"], ["created_at", "2018-10-25 21:04:37.782368"], ["updated_at", "2018-10-25 21:04:37.782368"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (90.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.5ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Venture Industries"], ["created_at", "2018-10-25 21:04:37.878976"], ["updated_at", "2018-10-25 21:04:37.878976"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (116.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.7ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "State University"], ["created_at", "2018-10-25 21:04:38.000615"], ["updated_at", "2018-10-25 21:04:38.000615"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (106.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.6ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Guild of Calamitous Intent"], ["created_at", "2018-10-25 21:04:38.112877"], ["updated_at", "2018-10-25 21:04:38.112877"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (104.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Tynisha"], ["last_name", "Bret"], ["description", "Alcestis"], ["mail", "tyhodkiewicz@rogahn.com"], ["age", 32], ["created_at", "2018-10-25 21:08:19.644125"], ["updated_at", "2018-10-25 21:08:19.644125"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (91.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Drew"], ["last_name", "Edwina"], ["description", "Alcestis"], ["mail", "isiah@boyer.info"], ["age", 29], ["created_at", "2018-10-25 21:08:19.740197"], ["updated_at", "2018-10-25 21:08:19.740197"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (115.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Jame"], ["last_name", "Maisha"], ["description", "Daedalus"], ["mail", "dariadooley@boyle.net"], ["age", 22], ["created_at", "2018-10-25 21:08:19.859520"], ["updated_at", "2018-10-25 21:08:19.859520"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (120.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Lavelle"], ["last_name", "Charlott"], ["description", "Chrysippus"], ["mail", "stanleyquitzon@hahn.com"], ["age", 26], ["created_at", "2018-10-25 21:08:19.986648"], ["updated_at", "2018-10-25 21:08:19.986648"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (114.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Phylis"], ["last_name", "Taylor"], ["description", "Polyxena"], ["mail", "titusraynor@prosacco.biz"], ["age", 31], ["created_at", "2018-10-25 21:08:20.107415"], ["updated_at", "2018-10-25 21:08:20.107415"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (105.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Melody"], ["last_name", "Gina"], ["description", "Ismene"], ["mail", "damiendurgan@ledner.co"], ["age", 32], ["created_at", "2018-10-25 21:08:20.217135"], ["updated_at", "2018-10-25 21:08:20.217135"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (128.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Lane"], ["last_name", "Babette"], ["description", "Achilles"], ["mail", "olinmohr@schimmel.net"], ["age", 25], ["created_at", "2018-10-25 21:08:20.349273"], ["updated_at", "2018-10-25 21:08:20.349273"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (118.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Monique"], ["last_name", "Arminda"], ["description", "Danaë"], ["mail", "juliettecartwright@greenfeldergleichner.name"], ["age", 37], ["created_at", "2018-10-25 21:08:20.473523"], ["updated_at", "2018-10-25 21:08:20.473523"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (104.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Lindy"], ["last_name", "Genesis"], ["description", "Aeneas"], ["mail", "barryluettgen@walterkreiger.com"], ["age", 21], ["created_at", "2018-10-25 21:08:20.582254"], ["updated_at", "2018-10-25 21:08:20.582254"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (118.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "mail", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Dusti"], ["last_name", "Talia"], ["description", "Andromache"], ["mail", "dong@little.biz"], ["age", 36], ["created_at", "2018-10-25 21:08:20.704805"], ["updated_at", "2018-10-25 21:08:20.704805"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (118.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vulpix"], ["zip_code", 5823], ["created_at", "2018-10-25 21:08:20.840059"], ["updated_at", "2018-10-25 21:08:20.840059"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (124.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Oddish"], ["zip_code", 89158], ["created_at", "2018-10-25 21:08:20.967609"], ["updated_at", "2018-10-25 21:08:20.967609"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (130.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Zubat"], ["zip_code", 27145], ["created_at", "2018-10-25 21:08:21.101155"], ["updated_at", "2018-10-25 21:08:21.101155"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (130.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Raichu"], ["zip_code", 47311], ["created_at", "2018-10-25 21:08:21.234372"], ["updated_at", "2018-10-25 21:08:21.234372"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (129.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Aerodactyl"], ["zip_code", 23429], ["created_at", "2018-10-25 21:08:21.367344"], ["updated_at", "2018-10-25 21:08:21.367344"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (108.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Charizard"], ["zip_code", 41344], ["created_at", "2018-10-25 21:08:21.477900"], ["updated_at", "2018-10-25 21:08:21.477900"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (107.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Kingler"], ["zip_code", 1783], ["created_at", "2018-10-25 21:08:21.588782"], ["updated_at", "2018-10-25 21:08:21.588782"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (108.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Nidoran"], ["zip_code", 48879], ["created_at", "2018-10-25 21:08:21.720753"], ["updated_at", "2018-10-25 21:08:21.720753"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (112.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Arcanine"], ["zip_code", 43608], ["created_at", "2018-10-25 21:08:21.838457"], ["updated_at", "2018-10-25 21:08:21.838457"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (135.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCity Create (0.3ms)[0m  [1m[32mINSERT INTO "cities" ("name", "zip_code", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Scyther"], ["zip_code", 50587], ["created_at", "2018-10-25 21:08:21.978489"], ["updated_at", "2018-10-25 21:08:21.978489"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (129.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Kunde LLC"], ["content", "Can you believe the zoo wouldn't let me borrow their white tiger? I mean, the nerve! Philip Seymour Hoffman is going to be sitting at the back of the party thinking, 'Look at that guy. He couldn’t even get a big cat.'"], ["date", "2018-10-24 00:00:00"], ["created_at", "2018-10-25 21:08:22.129163"], ["updated_at", "2018-10-25 21:08:22.129163"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (80.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.5ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "D'Amore Inc"], ["content", "Are you 'White Fanging' me?"], ["date", "2018-10-13 00:00:00"], ["created_at", "2018-10-25 21:08:22.214789"], ["updated_at", "2018-10-25 21:08:22.214789"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (116.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Bergnaum, Erdman and Reinger"], ["content", "This place is fancy and I don't know which fork to kill myself with."], ["date", "2018-10-13 00:00:00"], ["created_at", "2018-10-25 21:08:22.336757"], ["updated_at", "2018-10-25 21:08:22.336757"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (117.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "O'Reilly Group"], ["content", "I'm really fighting the urge to buy you a lobster dinner."], ["date", "2018-10-18 00:00:00"], ["created_at", "2018-10-25 21:08:22.458271"], ["updated_at", "2018-10-25 21:08:22.458271"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (151.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.3ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Frami Inc"], ["content", "It hurts. I feel like I've laid a million eggs and they're all hatching. I feel like I want to murder someone and I also want soft pretzels."], ["date", "2018-10-24 00:00:00"], ["created_at", "2018-10-25 21:08:22.614383"], ["updated_at", "2018-10-25 21:08:22.614383"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (117.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Maggio-Stanton"], ["content", "How's the new apartment? Does it smell like new paint and compromise?"], ["date", "2018-10-21 00:00:00"], ["created_at", "2018-10-25 21:08:22.735426"], ["updated_at", "2018-10-25 21:08:22.735426"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (128.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (1.0ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Conn-Kunde"], ["content", "Take these, and take care of them. I can get a tetanus shot, but I can't cure damaged suede."], ["date", "2018-10-12 00:00:00"], ["created_at", "2018-10-25 21:08:22.870275"], ["updated_at", "2018-10-25 21:08:22.870275"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (113.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.9ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Pagac, Pouros and Swift"], ["content", "I don't know how it happened, man, but somehow I got on that woman's cycle of menstruation…and I got that menstruation inside of me."], ["date", "2018-10-23 00:00:00"], ["created_at", "2018-10-25 21:08:22.991470"], ["updated_at", "2018-10-25 21:08:22.991470"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (145.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Shanahan and Sons"], ["content", "Are you 'White Fanging' me?"], ["date", "2018-10-14 00:00:00"], ["created_at", "2018-10-25 21:08:23.143618"], ["updated_at", "2018-10-25 21:08:23.143618"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (99.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mGossip Create (0.4ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Wiegand LLC"], ["content", "Take these, and take care of them. I can get a tetanus shot, but I can't cure damaged suede."], ["date", "2018-10-19 00:00:00"], ["created_at", "2018-10-25 21:08:23.246191"], ["updated_at", "2018-10-25 21:08:23.246191"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (106.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.8ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Guild of Calamitous Intent"], ["created_at", "2018-10-25 21:08:23.366169"], ["updated_at", "2018-10-25 21:08:23.366169"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (118.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Brimstone Assemnbly"], ["created_at", "2018-10-25 21:08:23.489691"], ["updated_at", "2018-10-25 21:08:23.489691"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (118.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Brimstone Assemnbly"], ["created_at", "2018-10-25 21:08:23.610880"], ["updated_at", "2018-10-25 21:08:23.610880"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (118.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Blackhearts Elimination Society"], ["created_at", "2018-10-25 21:08:23.735058"], ["updated_at", "2018-10-25 21:08:23.735058"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (105.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.5ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Brimstone Assemnbly"], ["created_at", "2018-10-25 21:08:23.845461"], ["updated_at", "2018-10-25 21:08:23.845461"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (106.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "The Guild of Calamitous Intent"], ["created_at", "2018-10-25 21:08:23.956305"], ["updated_at", "2018-10-25 21:08:23.956305"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (105.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.5ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Ünderland Troops"], ["created_at", "2018-10-25 21:08:24.076015"], ["updated_at", "2018-10-25 21:08:24.076015"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (108.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.5ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Venture Industries"], ["created_at", "2018-10-25 21:08:24.189737"], ["updated_at", "2018-10-25 21:08:24.189737"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (116.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.3ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Ünderland Troops"], ["created_at", "2018-10-25 21:08:24.310679"], ["updated_at", "2018-10-25 21:08:24.310679"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (107.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mTag Create (0.6ms)[0m  [1m[32mINSERT INTO "tags" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Ünderland Troops"], ["created_at", "2018-10-25 21:08:24.421368"], ["updated_at", "2018-10-25 21:08:24.421368"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (116.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.5ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "I'm really fighting the urge to buy you a lobster dinner."], ["date", "2018-10-14 00:00:00"], ["created_at", "2018-10-25 21:08:24.558470"], ["updated_at", "2018-10-25 21:08:24.558470"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (134.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.6ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "I'm really fighting the urge to buy you a lobster dinner."], ["date", "2018-10-21 00:00:00"], ["created_at", "2018-10-25 21:08:24.697515"], ["updated_at", "2018-10-25 21:08:24.697515"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (139.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "I'm gonna end up alone. I’m gonna be a single old lady, flashing people on the subway."], ["date", "2018-10-17 00:00:00"], ["created_at", "2018-10-25 21:08:24.841509"], ["updated_at", "2018-10-25 21:08:24.841509"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (128.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.7ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "If you need me, I'll be in my room, listening to some mainstream hip-hop."], ["date", "2018-10-13 00:00:00"], ["created_at", "2018-10-25 21:08:24.975268"], ["updated_at", "2018-10-25 21:08:24.975268"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (149.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "A no-nail oath? You thought I was gonna sleep with one of you, like I just couldn't help it?"], ["date", "2018-10-11 00:00:00"], ["created_at", "2018-10-25 21:08:25.130604"], ["updated_at", "2018-10-25 21:08:25.130604"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (150.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.6ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "If you had a jacket on with a bunch of yellow feathers, I'd be done."], ["date", "2018-10-24 00:00:00"], ["created_at", "2018-10-25 21:08:25.286141"], ["updated_at", "2018-10-25 21:08:25.286141"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (104.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "This place is fancy and I don't know which fork to kill myself with."], ["date", "2018-10-12 00:00:00"], ["created_at", "2018-10-25 21:08:25.395248"], ["updated_at", "2018-10-25 21:08:25.395248"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (118.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "Take these, and take care of them. I can get a tetanus shot, but I can't cure damaged suede."], ["date", "2018-10-23 00:00:00"], ["created_at", "2018-10-25 21:08:25.517291"], ["updated_at", "2018-10-25 21:08:25.517291"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (128.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.6ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "I'm really fighting the urge to buy you a lobster dinner."], ["date", "2018-10-15 00:00:00"], ["created_at", "2018-10-25 21:08:25.651563"], ["updated_at", "2018-10-25 21:08:25.651563"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (117.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mPrivateMessage Create (0.5ms)[0m  [1m[32mINSERT INTO "private_messages" ("content", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "I don't celebrate Christmas. Or, as I like to call it, 'White Anglo Saxon Winter Privilege Night'."], ["date", "2018-10-19 00:00:00"], ["created_at", "2018-10-25 21:08:25.775384"], ["updated_at", "2018-10-25 21:08:25.775384"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (114.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39

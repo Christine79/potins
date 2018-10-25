@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_25_194941) do
+ActiveRecord::Schema.define(version: 2018_10_25_205406) do
 
   create_table "cities", force: :cascade do |t|
     t.string "name"
@@ -32,6 +32,10 @@ ActiveRecord::Schema.define(version: 2018_10_25_194941) do
     t.datetime "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "recipient_id"
+    t.integer "sender_id"
+    t.index ["recipient_id"], name: "index_private_messages_on_recipient_id"
+    t.index ["sender_id"], name: "index_private_messages_on_sender_id"
   end
 
   create_table "tags", force: :cascade do |t|
